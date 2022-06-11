@@ -1,0 +1,113 @@
+
+
+.text {
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    right:10px;
+}
+
+.fixed-class{
+    position: fixed;
+    top:100px;
+    right: 20px;
+    background-color: green;
+    color: white;
+}
+
+.sticky-class{
+    background-color: red;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.div-one{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+}
+.div-two{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.div-three{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    transform: scale(1);
+    transition: 1s;
+    float: left;
+
+
+}
+
+.div-three:hover{
+    transform: scale(1.5);
+}
+
+.div-four{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    transform: scaleX(1);
+    transition: 1s;
+    float: left;
+    margin-left: 10px;
+
+
+
+
+}
+
+.div-four:hover{
+    transform: scaleX(1.5);
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.div-five{
+    height: 300px;
+    width:300px;
+    background-color: blue;
+    transform: rotate(20deg);
+    transition: 500ms;
+}
+
+.div-five:hover{
+    transform: rotate(360deg);
+}
+
+.div-six{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+    transform: skewY(30deg);
+    float: left;
+
+}
+
+.div-seven{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+    transform: skewY(-30deg);
+    float: left;
+    margin-left: 20px;
+}
